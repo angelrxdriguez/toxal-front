@@ -1,0 +1,63 @@
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    max-width: 200px; 
+    width: 100%;
+    border-radius: 100px;
+  }
+  .btn.btn-light{
+    padding: 5%;
+    font-size: 140%;
+    width: 100%;
+}
+  
+.navbar{
+    background-color: rgba(254, 254, 254, 0.761) !important;
+}
+  .video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(72, 72, 64, 0.5); 
+    z-index: -1; 
+  }
+.navbar-custom {
+    justify-content: space-between;
+  }
+  .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nav-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
