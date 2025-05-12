@@ -3,6 +3,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    background-color: white !important;
 }
 #bg-video {
     position: fixed;
@@ -37,6 +38,10 @@ body{
 .navbar{
     background-color: rgba(254, 254, 254, 0.761) !important;
 }
+.nav-link:hover{
+background-color: rgb(175, 191, 151);
+border-radius: 20%;
+}
   .video-overlay {
     position: fixed;
     top: 0;
@@ -60,4 +65,38 @@ body{
     flex-direction: column;
     align-items: center;
   }
+  .video-nav-container {
+    position: relative;
+    width: 100%;
+    height: 350px; /*tamaño video <----------*/
+    overflow: hidden;
+  }
   
+  .video-fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+  }
+  .video-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(74, 74, 70, 0.563); 
+    z-index: -1; 
+  }
+  .titban{
+      position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 2.5rem;
+  }
