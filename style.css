@@ -68,7 +68,7 @@ border-radius: 20%;
   .video-nav-container {
     position: relative;
     width: 100%;
-    height: 350px; /*tamaño video <----------*/
+    height: 350px; 
     overflow: hidden;
   }
   
@@ -99,4 +99,14 @@ border-radius: 20%;
   z-index: 1;
   color: white;
   font-size: 2.5rem;
+  }
+  .card-text{
+    text-align: left;
+    color: black;
+  }
+  .card-img-top{
+  }
+  .card:hover{
+    border: solid rgb(58, 83, 0);
+    transition: 0.1s;
   }
