@@ -110,3 +110,12 @@ border-radius: 20%;
     border: solid rgb(58, 83, 0);
     transition: 0.1s;
   }
+  .longitudes{
+    display: flex;
+    flex-direction: row;
+  }
+  .longitud{
+    background-color: rgb(232, 232, 232);
+    padding: 5%;
+    border-radius: 20px;
+  }
